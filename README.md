@@ -40,6 +40,6 @@ without spending so much time.
   - `http://localhost:3000/docs` (open to see how to use the API)
 
 
-![Alt text](/screens/Screen Shot 2017-09-10 at 12.03.10.png?raw=true)
+![ScreenShot](/screens/Screen Shot 2017-09-10 at 12.03.10.png?raw=true)
 
-![Alt text](/screens/Screen Shot 2017-09-10 at 16.54.43.png?raw=true)
+![ScreenShot](/screens/Screen Shot 2017-09-10 at 16.54.43.png?raw=true)
