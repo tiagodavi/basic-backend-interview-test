@@ -1,0 +1,51 @@
+{
+  "name": "basic-backend-interview-test",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Basic Backend Developer Interview",
+  "main": "server.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha",
+    "test:watch": "NODE_ENV=test ./node_modules/mocha/bin/mocha --recursive --full-trace -b -c -w -d -R progress",
+    "test:coverage": "NODE_ENV=test istanbul --dir=./public/coverage cover _mocha -- -R spec",
+    "server": "(NODE_ENV=development nodemon ./server.js)",
+    "docs": "apidoc -i ./app -o ./public/docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiagodavi/basic-backend-interview-test.git"
+  },
+  "author": "Tiago Davi",
+  "license": "Vendor lock-in",
+  "homepage": "https://github.com/tiagodavi/basic-backend-interview-test.git",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "express": "^4.14.0",
+    "helmet": "^2.1.2",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.11.10",
+    "ramda": "^0.22.1",
+    "request": "^2.81.0",
+    "rx": "^4.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "nodemon": "^1.12.0",
+    "supertest": "^2.0.0"
+  },
+  "apidoc": {
+    "name": "Basic Backend Developer Interview",
+    "version": "1.0.0",
+    "description": "Basic Backend Developer Interview",
+    "apidoc": {
+      "title": "Basic Backend Developer Interview",
+      "url": "https://github.com/tiagodavi/basic-backend-interview-test.git"
+    },
+    "template": {
+      "forceLanguage": "en"
+    }
+  }
+}
