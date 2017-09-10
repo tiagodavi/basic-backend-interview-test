@@ -39,6 +39,6 @@ without spending so much time.
 
   - `http://localhost:3000/docs` (open to see how to use the API)
 
-![alt tag](https://raw.github.com/tiagodavi/basic-backend-interview-test/master/screens/Screen Shot 2017-09-10 at 12.03.10.png)
+![alt tag](https://raw.github.com/tiagodavi/basic-backend-interview-test/master/screens/screen1.png)
 
-![alt tag](https://raw.github.com/tiagodavi/basic-backend-interview-test/master/screens/Screen Shot 2017-09-10 at 16.54.43.png)
+![alt tag](https://raw.github.com/tiagodavi/basic-backend-interview-test/master/screens/screen2.png)
