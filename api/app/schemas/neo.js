@@ -4,6 +4,7 @@ module.exports = (app) => {
 
   const mongoose = require('mongoose');
   const {connectionString, options} = app.util.connection.getInstance();
+  mongoose.Promise = global.Promise;
   mongoose.connect(connectionString, options);
 
   const repository = {};
